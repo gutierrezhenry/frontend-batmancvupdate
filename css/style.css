@@ -1,0 +1,122 @@
+
+/* modificando el fondo de la pagina */
+
+body {background-color:rgb(79, 121, 146);}
+
+/* transformando el menu a la derecha */
+.navbar {
+    display:flex;
+    flex-direction:column;
+    width:30%;
+    height:500%;
+    float:right;
+    font-family: roboto;
+    font-size: 40px;
+    word-spacing: auto;
+    text-transform: uppercase;
+    word-spacing:20px;
+}
+/*centrar la pagina */
+ #contenedor {
+    margin: auto;
+    width: 80%;
+}
+/* acomodando la foto */
+#foto { 
+    display:flex;
+    text-align: right;
+    width:"90"}
+
+/* background con imagen completa al fondo */
+.imagendefondo {
+    background-image:url(/img/triangles-1430105_1280.png);
+    background-repeat: no-repeat;
+    background-position: Center center;
+    background-size: cover;
+    background-attachment: inherit;
+ }
+
+  
+/*definir encabezado hoja de vida con color */
+
+.encabezadocv {
+    background-color:#221e1e;
+    color: #fbfdfd;
+    font-family: 'roboto', sans-serif;
+    font-size:50px; 
+    font-weight=800px;
+    text-align:left;
+    text-transform: uppercase;
+}
+
+.subtitulos {
+    background-color:#221e1e;
+    color: #fbfdfd;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+}
+.datacv {
+    font-family: 'roboto';
+    color: #fbfdfd;
+    font-size: 30px;
+    word-spacing: 5px;
+}
+
+#redes-sociales {
+    background-color: #005677;
+    height: 20px;
+    left: 772px;
+    width: 20px;
+    top: 996px; 
+
+}
+
+footer{
+    
+    background-color: #005677;
+    text-align: center;
+    padding: 30px;
+    text-transform: uppercase;
+}
+
+.piedepag {background-color: #005677;
+        height: 20px;
+        left: 772px;
+        width: 20px;
+        top: 996px; }
+}
+
+
+
+
+.iconosfooter {
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 20px;
+    padding-right: 10px;
+    max-width: 10px;
+    max-height: 10px;}
+    
+/* css pagina about */
+
+.backgroundabout {
+    margin: auto;
+    width: 80%;
+    background-image: url(/img/AdobeStock_100000042-e1563305717660-1300x500.jpeg);
+    background-repeat: no-repeat;
+    background-position: Center center;
+    background-size: cover;
+    background-attachment: inherit;
+}
+
+.textoabout {
+    font-family: 'roboto';
+    color: #cedf36;
+    font-size: 30px;
+    word-spacing: 5px;
+    font-weight: bold;
+    font-style: oblique;
+    font-feature-settings: "zero";
+}
